@@ -28,7 +28,7 @@ data_available.response=init_data.response;
 data_available.predictor_library=zscore(init_data.predictor_column);
 data_available.org_predictor=init_data.predictor;
 data_available.init_pi0=0.5;
-data_available.Xvar=1.96^2;
+data_available.Xvar=2.25^2;
 % M1=[10:-1:2]%init_data.actualmodelterms;
 % M2=[10:-1:2 1];
 % 
