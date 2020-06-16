@@ -6,9 +6,7 @@ The stochastic search variable selection (SSVS), introduced by George and McCull
 
 The first step in understanding the SSVS, is to define the term Bayes factor. Bayes factor is formally defined as follows,
 > A Bayes factor is the ratio of the likelihood of one particular hypothesis to the likelihood of another. It can be interpreted as a measure of the strength of evidence in favor of one theory among two competing theories.
-$$
-BF=\frac{P( D|H_{1})}{P( D|H_{0})}
-$$
+<img src="http://www.sciweavers.org/tex2img.php?eq=BF%3D%5Cfrac%7BP%28%20D%7CH_%7B1%7D%29%7D%7BP%28%20D%7CH_%7B0%7D%29%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="BF=\frac{P( D|H_{1})}{P( D|H_{0})}" width="112" height="46" />
 
 In other words bayes factor compares two competing theories and relatively weighs the chances of occurance of one against the other given the data. In terms of variable selection, the bayes factor gets reformulated to answer the critical question, i.e., whether or not to include a particular variable.
 $$
