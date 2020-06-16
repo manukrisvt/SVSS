@@ -6,9 +6,9 @@ The stochastic search variable selection (SSVS), introduced by George and McCull
 
 The first step in understanding the SSVS, is to define the term Bayes factor. Bayes factor is formally defined as follows,
 > A Bayes factor is the ratio of the likelihood of one particular hypothesis to the likelihood of another. It can be interpreted as a measure of the strength of evidence in favor of one theory among two competing theories.
-> $$
+$$
 BF=\frac{P( D|H_{1})}{P( D|H_{0})}
-> $$
+$$
 
 In other words bayes factor compares two competing theories and relatively weighs the chances of occurance of one against the other given the data. In terms of variable selection, the bayes factor gets reformulated to answer the critical question, i.e., whether or not to include a particular variable.
 $$
@@ -47,90 +47,3 @@ In the original problem, the required task is to identify the pertinent predicto
 ![](https://i.imgur.com/vkMbk0Y.jpg)
 
 In the above example the main aim of the algorithm is to fish out the correct X variables that went into forming the response variable and calculate the coefficient of those regressors.
-### Step 2: Write something in Markdown
-
-Let's try it out!
-Apply different styling to this paragraph:
-**HackMD gets everyone on the same page with Markdown.** ==Real-time collaborate on any documentation in markdown.== Capture fleeting ideas and formalize tribal knowledge.
-
-- [x] **Bold**
-- [ ] *Italic*
-- [ ] Super^script^
-- [ ] Sub~script~
-- [ ] ~~Crossed~~
-- [x] ==Highlight==
-
-:::info
-:bulb: **Hint:** You can also apply styling from the toolbar at the top :arrow_upper_left: of the editing area.
-
-![](https://i.imgur.com/Cnle9f9.png)
-:::
-
-> Drag-n-drop image from your file system to the editor to paste it!
-
-### Step 3: Invite your team to collaborate!
-
-Click on the <i class="fa fa-share-alt"></i> **Sharing** menu :arrow_upper_right: and invite your team to collaborate on this note!
-
-![permalink setting demo](https://i.imgur.com/PjUhQBB.gif)
-
-- [ ] Register and sign-in to HackMD (to use advanced features :tada: ) 
-- [ ] Set Permalink for this note
-- [ ] Copy and share the link with your team
-
-:::info
-:pushpin: Want to learn more? ➜ [HackMD Tutorials](https://hackmd.io/c/tutorials) 
-:::
-
----
-
-## BONUS: More cool ways to HackMD!
-
-- Table
-
-| Features          | Tutorials               |
-| ----------------- |:----------------------- |
-| GitHub Sync       | [:link:][GitHub-Sync]   |
-| Browser Extension | [:link:][HackMD-it]     |
-| Book Mode         | [:link:][Book-mode]     |
-| Slide Mode        | [:link:][Slide-mode]    | 
-| Share & Publish   | [:link:][Share-Publish] |
-
-[GitHub-Sync]: https://hackmd.io/c/tutorials/%2Fs%2Flink-with-github
-[HackMD-it]: https://hackmd.io/c/tutorials/%2Fs%2Fhackmd-it
-[Book-mode]: https://hackmd.io/c/tutorials/%2Fs%2Fhow-to-create-book
-[Slide-mode]: https://hackmd.io/c/tutorials/%2Fs%2Fhow-to-create-slide-deck
-[Share-Publish]: https://hackmd.io/c/tutorials/%2Fs%2Fhow-to-publish-note
-
-- LaTeX for formulas
-
-$$
-x = {-b \pm \sqrt{b^2-4ac} \over 2a}
-$$
-
-- Code block with color and line numbers：
-```javascript=16
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-- UML diagrams
-```sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-Note left of Alice: Alice responds
-Alice->Bob: Where have you been?
-```
-- Auto-generated Table of Content
-[ToC]
-
-> Leave in-line comments! [color=#3b75c6]
-
-- Embed YouTube Videos
-
-{%youtube PJuNmlE74BQ %}
-
-> Put your cursor right behind an empty bracket {} :arrow_left: and see all your choices.
-
-- And MORE ➜ [HackMD Tutorials](https://hackmd.io/c/tutorials)
